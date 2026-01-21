@@ -15,7 +15,7 @@ const createBookCard = function (book) {
               <div class="card-body text-center d-md-flex flex-column gap-md-3 justify-content-end">
                 <h5 class="card-title fs-2">${bookTitle}</h5>
                 <p class="card-text fs-4">&euro; <span class="fs-4">${bookPrice}</span></p>
-                <button href="" class="btn btn-outline-light fs-4 mb-1 discard-button">Discard</a>
+                <button class="btn btn-outline-light fs-4 mb-1 discard-button w-50 mx-auto">Discard</a>
               </div>
             </div>
           </div>
