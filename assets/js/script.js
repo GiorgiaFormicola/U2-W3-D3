@@ -2,10 +2,10 @@
 const libraryURL = "https://striveschool-api.herokuapp.com/books";
 
 //create a function that create a card with discard button
-const createBookCard = function (book) {
-  const bookTitle = book.title;
-  const bookImage = book.img;
-  const bookPrice = book.price;
+const createBookCard = function (element) {
+  const bookTitle = element.title;
+  const bookImage = element.img;
+  const bookPrice = element.price;
 
   const library = document.getElementById("library");
   library.innerHTML += `
